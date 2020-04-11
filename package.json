@@ -1,0 +1,7 @@
+{
+  "name": "stripe-checkout-netlify-serverless",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT"
+}
