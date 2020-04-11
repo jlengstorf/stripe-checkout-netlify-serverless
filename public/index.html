@@ -16,6 +16,28 @@
       <div class="products"></div>
     </main>
 
+    <template id="product">
+      <div class="product">
+        <img src="" alt="" />
+        <h2>name</h2>
+        <p class="description">description</p>
+        <p class="price">price</p>
+        <form action="" method="POST">
+          <label for="quantity">Quantity</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value="1"
+            min="1"
+            max="10"
+          />
+          <input type="hidden" name="sku" value="" />
+          <button type="submit">Buy Now</button>
+        </form>
+      </div>
+    </template>
+
     <script type="module">
       import { loadProducts } from './js/load-products.js';
 
